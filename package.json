@@ -7,6 +7,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "eslint": "eslint --init",
     "init-project": "npm install && npm-run-all init:*",
     "init:dirs": "mkdirp dist src/sass src/css src/vendor src/images src/js",
     "init:files": "touch README.md src/index.html src/sass/style.scss src/js/script.js",
@@ -51,6 +52,6 @@
     "nu-html-checker": "^0.1.0",
     "onchange": "^5.2.0",
     "stylelint": "^9.10.1",
-    "stylelint-scss": "^3.5.4"
+    "stylelint-scss": "^3.12.1"
   }
 }
