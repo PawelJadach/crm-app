@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=latin-ext');
+
 /* Colors */
-$paragraph-color: #000000;
-$brand-main-color: #ff0000;
+$paragraph-color: #333;
+$header-color: #a6a6a6;
+$brand-main-color: #f58220;
+$links-color: #56819f;
 
 /* Font sizes */
 $paragraph-font-size: 16px;
 
 /* Fonts */
-$brand-font: 'Open Sans', Helvetica, Arial;
-$paragraph-font: 'Open Sans', Helvetica, Arial;
+$brand-font: 'Roboto', Helvetica, Arial;
 
-h2 {
-  color: $brand-main-color;
-}
+

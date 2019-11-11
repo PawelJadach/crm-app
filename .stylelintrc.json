@@ -7,8 +7,8 @@
     "declaration-colon-space-after": "always",
     "declaration-block-semicolon-newline-after": "always",
     "declaration-block-trailing-semicolon": "always",
-    "indentation": 2,
-    "max-empty-lines": 2,
+    "indentation": 3,
+    "max-empty-lines": 3,
     "max-nesting-depth": [
       3,
       {
