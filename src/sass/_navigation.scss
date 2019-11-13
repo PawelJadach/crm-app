@@ -1,41 +1,40 @@
 nav.main {
+   .top {
+      i {
+         cursor: pointer;
+      }
+   }
 
-    .top {
-        i {
-            cursor: pointer;
-        }
-    }
-
-    ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+   ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
         
-        a {
-            padding: 10px 20px;
-            color: $header-color;
-            display: block;
-            font-size: 14px;
-            text-align: left;
+      a {
+         padding: 10px 20px;
+         color: $header-color;
+         display: block;
+         font-size: 14px;
+         text-align: left;
            
-            i {
-                margin-right: 20px;
-            }
+         i {
+            margin-right: 20px;
+         }
            
             
-            &:hover{
-                background-color: #282828;
-                color: white;
-                border-left: 4px solid $brand-main-color;
-            }
-
-            
-        }
-
-        a.active {
+         &:hover{
             background-color: #282828;
             color: white;
             border-left: 4px solid $brand-main-color;
-        }
-    }
+         }
+
+            
+      }
+
+      a.active {
+         background-color: #282828;
+         color: white;
+         border-left: 4px solid $brand-main-color;
+      }
+   }
 }

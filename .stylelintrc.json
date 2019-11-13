@@ -10,7 +10,7 @@
     "indentation": 3,
     "max-empty-lines": 3,
     "max-nesting-depth": [
-      3,
+      5,
       {
         "ignore": ["pseudo-classes"]
       }
