@@ -33,6 +33,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@chenfengyuan/datepicker": "^1.0.9",
     "flatpickr": "^4.6.3",
     "json-server": "^0.15.1",
     "node": "^12.13.0",
