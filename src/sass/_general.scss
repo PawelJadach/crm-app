@@ -1,6 +1,4 @@
 .general {
-   order: 0;
-
    .wrap {
       text-align: center;
       padding: 50px 0;
@@ -92,7 +90,6 @@
       // }
    }
 }
-
 
 @media (max-width: 900px) {
    .general .container .info {
