@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/c9f6237576.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>CRM</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="main">
+        <div class="top">
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="86"
+              height="23"
+              viewBox="0 0 86 23"
+            >
+              <image
+                id="logo"
+                width="86"
+                height="23"
+                xlink:href="data:img/png;base64,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"
+              />
+            </svg> </a
+          ><i class="fas fa-bars"></i>
+        </div>
+
+        <ul class='navigation'>
+          <li>
+            <a href="" class="active"><i class="far fa-star"></i> General</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-arrow-alt-circle-right"></i> Details</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-link"></i> Links</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-ad"></i> Banners</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-user"></i> Personal data</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-dollar-sign"></i> Payout</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-undo-alt"></i> Post back</a>
+          </li>
+        </ul>
+        <div class="menagers">
+          <h1>your menager</h1>
+          <div class="person">
+            <div class="status"></div>
+            <img src="./assets/img/photo.png" alt="" />
+            <p class="name">Michael E.</p>
+          </div>
+        </div>
+      </nav>
+      <div class="right">
+        <div class="top">
+          <div class="wallet">
+            <i class="fas fa-wallet"></i> $1,5000.00
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <div class="notifications">
+            <i class="far fa-bell"></i>
+          </div>
+          <div class="profile">
+            <a href=""><i class="fas fa-user"></i> Leonardo Di Caprio</a>
+          </div>
+          <div class="out">
+            <i class="fas fa-sign-out-alt"></i>
+          </div>
+        </div>
+        <section class="general container">
+          <h1 class="header">general statistic</h1>
+          <hr />
+          <div class="wrap">
+            <div class="data">
+              <input type="text" />
+              <input type="text" />
+              <i class="far fa-calendar-alt"></i>
+            </div>
+            <button><i class="fas fa-undo-alt"></i></button>
+          </div>
+          <hr />
+
+          <div class="container">
+            <div class="info">
+              <h2>Visit Signups</h2>
+              <p>124</p>
+            </div>
+            <div class="info">
+              <h2>Net Deposit</h2>
+              <p>564</p>
+            </div>
+            <div class="info">
+              <h2>FTD</h2>
+              <p>445</p>
+            </div>
+            <div class="info">
+              <h2>Turn over</h2>
+              <p>432</p>
+            </div>
+          </div>
+
+          <div class="wrapper1">
+            <h2>Earning chart</h2>
+
+            <!-- <div class="center">
+              <span>
+                <div class="wheel"></div>
+                <h5>Signups</h5>
+              </span>
+              <span>
+                <div class="wheel"></div>
+                <h4>FTD</h4>
+              </span>
+              <span>
+                <div class="wheel"></div>
+                <h4>Earned</h4>
+              </span>
+            </div> -->
+            <img src="./assets/img/graph.png" alt="" />
+          </div>
+        </section>
+
+        <section class="links container">
+          <h1 class="header">Links</h1>
+          <hr />
+          <div class="container">
+            <button>+ add new</button>
+
+            <table>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+              <tr>
+                <td><h2>Home page</h2></td>
+                <td><a href="#">homepage.com</a></td>
+              </tr>
+            </table>
+
+            <button>+ add new</button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
