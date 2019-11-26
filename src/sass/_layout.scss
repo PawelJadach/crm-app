@@ -1,40 +1,40 @@
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 .container {
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto;
-  margin-top: 15px;
-  //  padding-left: 15px;
-  //  padding-right: 15px;
-  background-color: #fff;
+   width: 100%;
+   max-width: 1170px;
+   margin: 0 auto;
+   margin-top: 15px;
+   //  padding-left: 15px;
+   //  padding-right: 15px;
+   background-color: #fff;
 }
 
 .container-fluid {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+   width: 100%;
+   padding-left: 15px;
+   padding-right: 15px;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 @media (max-width: 767px) {
-  @include grid('sm');
+   @include grid('sm');
 }
 
 @media (min-width: 768px) {
-  @include grid('md');
+   @include grid('md');
 }
 
 @media (min-width: 992px) {
-  @include grid('lg');
+   @include grid('lg');
 }
 
 @media (min-width: 1200px) {
-  @include grid('xl');
+   @include grid('xl');
 }
